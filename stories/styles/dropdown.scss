@@ -1,13 +1,16 @@
+// Colors
+@import 'variables';
+
 .test-dropdown {
   position: relative;
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: inherit;
 }
 
 .test-dropdown__button {
   padding-right: 2.71875em;
-  background-color: #3a71aa;
-  border-color: #f0f1f2;
-  color: #ffffff;
+  background-color: $burgundy;
+  border-color: $greige;
+  color: $beige;
   align-items: center;
   -webkit-appearance: none;
   appearance: none;
@@ -32,8 +35,8 @@
 
 .test-dropdown__menu {
   display: none !important;
-  background-color: #ffffff;
-  border: 1px solid #e6e6e6;
+  background-color: $beige;
+  border: 1px solid $greige;
   border-radius: calc(0.375em * 1);
   box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
   left: 0;
@@ -68,7 +71,7 @@
   border-width: 0;
   box-shadow: none;
   box-sizing: border-box;
-  color: #202330;
+  color: $black;
   cursor: pointer;
   display: flex;
   font-family: inherit;

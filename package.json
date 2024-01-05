@@ -9,20 +9,25 @@
     "@storybook/addon-interactions": "^7.6.7",
     "@storybook/addon-links": "^7.6.7",
     "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/addon-styling-webpack": "^0.0.6",
     "@storybook/blocks": "^7.6.7",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^7.6.7",
     "@storybook/react-webpack5": "^7.6.7",
     "@storybook/test": "^7.6.7",
     "prop-types": "^15.8.1",
-    "storybook": "^7.6.7"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.69.7",
+    "storybook": "^7.6.7",
+    "css-loader": "^5.2.6",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "deploy-storybook": "gh-pages -d storybook-static"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
   }
 }
