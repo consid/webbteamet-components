@@ -1,22 +1,22 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { TestComponent } from './components/TestComponent';
+import { Dropdown } from './components/Dropdown';
 
-const meta: Meta<typeof TestComponent> = {
-  title: 'Example/TestComponent',
-  component: TestComponent,
+const meta: Meta<typeof Dropdown> = {
+  title: 'Example/Dropdown',
+  component: Dropdown,
   parameters: {
     layout: 'centered'
   }
 };
 
 export default meta;
-type Story = StoryObj<typeof TestComponent>;
+type Story = StoryObj<typeof Dropdown>;
 
 export const Styled: Story = {
   args: {
     label: 'Styled Dropdown',
-    className: 'test'
+    name: 'test'
   }
 };
 
