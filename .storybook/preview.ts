@@ -1,7 +1,6 @@
-/** @type { import('@storybook/react').Preview } */
-import '../stories/styles/main.scss';
+import type { Preview } from '@storybook/react';
 
-const preview = {
+const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
@@ -9,7 +8,8 @@ const preview = {
         color: /(background|color)$/i,
         date: /Date$/i
       }
-    }
+    },
+    layout: 'centered'
   }
 };
 
