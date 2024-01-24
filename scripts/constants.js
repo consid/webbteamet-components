@@ -1,5 +1,4 @@
-export const DEFAULT_STORY = `
-import type { Meta, StoryObj } from '@storybook/react';
+export const DEFAULT_STORY = `import type { Meta, StoryObj } from '@storybook/react';
 import { MyComponent } from './MyComponent';
 
 const meta: Meta<typeof MyComponent> = {
@@ -26,8 +25,7 @@ export const Unstyled: Story = {
 };
 `;
 
-export const DEFAULT_COMPONENT = `
-import React from 'react';
+export const DEFAULT_COMPONENT = `import React from 'react';
 import './MyComponent.css';
 
 interface MyComponentProps {
@@ -47,4 +45,4 @@ export const MyComponent = ({
 
 `;
 
-export const DEFAULT_STYLING = ``;
+export const DEFAULT_STYLING = ``; // Add default styling here if we need it
