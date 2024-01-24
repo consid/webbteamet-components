@@ -40,11 +40,11 @@ If you want to add a new component to the library, here's how you can clone the 
 
 If you want to create a new component to expand on this library, we got a script that adds some boilerplate for your convenience.
 
-1. Run `npm run new-component MyComponent`. This will create a folder in `.src/components/MyComponent` containing the necessary files:
-   `MyComponent.tsx`
-   `MyComponent.stories.tsx`
-   `MyComponent.css`
-   `index.ts`
+1. Run `npm run new-component <MyComponent>`. This will create a folder in `.src/components/MyComponent` containing the necessary files:
+   `MyComponent.tsx`,
+   `MyComponent.stories.tsx`,
+   `MyComponent.css`,
+   `index.ts`,
 
 2. Work with the component and the related story, see detailed documentation for each file further down in this README
 
