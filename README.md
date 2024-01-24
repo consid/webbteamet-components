@@ -36,6 +36,8 @@ If you want to add a new component to the library, here's how you can clone the 
 
 3. Run `npm run storybook` and the local development server should open on `http://localhost:6006` in your browser
 
+---
+
 ### Creating new components
 
 If you want to create a new component to expand on this library, we got a script that adds some boilerplate for your convenience.
@@ -54,6 +56,8 @@ If you want to create a new component to expand on this library, we got a script
 
 5. Increase the version in `package.json` and run `npm publish` to publish the new version to npm using the CLI. For further documentation on publishing with npm, read more at [npm-publish | npm Docs](https://docs.npmjs.com/cli/v10/commands/npm-publish)
 
+---
+
 ### MyComponent.tsx
 
 This is a regular React Component. To read more about React component and the basics:
@@ -71,6 +75,8 @@ This styling is automatically imported to the component. Currently, vanilla CSS 
 ### index.ts
 
 This file exports the folder content, so it can be used when installing the npm package containing the components.
+
+---
 
 ## Roadmap
 
