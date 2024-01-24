@@ -62,7 +62,7 @@ This file exports the folder content, so it can be used when installing the npm 
 
 Here is a roadmap for future improvement for Webbteamet Components:
 
-- [ ] The script `npm run new-component` automatically adds the file to `./src/index.ts` for export
-- [ ] The new component name is added to the boilerplate code
+- [x] The script `npm run new-component` automatically adds the file to `./src/index.ts` for export
+- [x] The new component name is added to the boilerplate code
 - [ ] Automatic deployment to github-pages
 - [ ] SASS support for components
