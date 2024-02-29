@@ -1,6 +1,6 @@
 {
   "name": "webbteamet-components",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "homepage": "https://github.com/consid/webbteamet-components",
   "repository": {
     "type": "git",
@@ -46,7 +46,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build-rollup": "rollup -c",
-    "new-component": "node scripts/component.js"
+    "new-component": "node scripts/component.js",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",

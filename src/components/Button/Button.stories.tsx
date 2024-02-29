@@ -11,18 +11,18 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export const Styled: Story = {
+export const Primary: Story = {
   args: {
-    label: 'Primary',
+    label: 'Primary button',
     size: 'large',
     primary: true
   }
 };
 
-export const Unstyled: Story = {
+export const Secondary: Story = {
   args: {
-    ...Styled.args,
-    label: 'Secondary',
+    ...Primary.args,
+    label: 'Secondary button',
     size: 'large',
     primary: false
   }

@@ -6,14 +6,15 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  padding: 1rem 2rem;
 }
 .storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+  color: #f49e88;
+  background-color: #b5223f;
 }
 .storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
+  color: #1c1c1c;
+  background-color: #efe6dd;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 }
 .storybook-button--small {
