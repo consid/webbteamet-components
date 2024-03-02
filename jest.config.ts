@@ -17,6 +17,7 @@ const config: Config.InitialOptions = {
     },
     // Configure Jest to find test files
     testMatch: ['<rootDir>/src/**/*.test.(ts|tsx|js|jsx)'],
+    reporters: ['default', 'jest-junit'],
 };
 
 export default config;
