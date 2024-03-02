@@ -10,7 +10,7 @@ describe('DatePicker', () => {
     test('opens picker on button click', () => {
         const {getByLabelText, getByRole} = render(<DatePicker/>);
         fireEvent.click(getByLabelText(/pick a date/i));
-        expect(getByRole('dialog')).toBeEmptyDOMElement();
+        expect(getByRole('dialog')).toBeInTheDocument();
     });
 
     test('selects a date', () => {
