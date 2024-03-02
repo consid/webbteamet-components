@@ -1,4 +1,4 @@
-﻿import type { Config } from '@jest/types';
+﻿import type {Config} from '@jest/types';
 
 const config: Config.InitialOptions = {
     preset: 'ts-jest',
@@ -17,7 +17,7 @@ const config: Config.InitialOptions = {
     },
     // Configure Jest to find test files
     testMatch: ['<rootDir>/src/**/*.test.(ts|tsx|js|jsx)'],
-    reporters: ['default', 'jest-junit'],
+    reporters: ['default', ['jest-junit', {outputDirectory: 'test-results/jest', outputName: 'junit.xml'}]],
 };
 
 export default config;
